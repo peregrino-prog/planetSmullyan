@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilha de Bahava</title>
+    <link rel="stylesheet" href="../styles/ilha_bahava.css">
+</head>
+<body>
+    <!-- Personagens fora da container -->
+    <img class="personagem personagem-esquerda1" id="personagemEsquerda1" src="../assets/images/personagem1.png" alt="Personagem1">
+    <div class="balao balao-esquerda1" id="falaEsquerda1"></div>
+
+    <img class="personagem personagem-esquerda2" id="personagemEsquerda2"src="../assets/images/personagem2.png" alt="Personagem2">
+    <div class="balao balao-esquerda2" id="falaEsquerda2"></div>
+
+    <img class="personagem personagem-direita1" id="personagemDireita1" src="../assets/images/personagem3.png" alt="Personagem1">
+    <div class="balao balao-direita1" id="falaDireita1"></div>
+
+    <img class="personagem personagem-direita2" id="personagemDireita2" src="../assets/images/personagem4.png" alt="Personagem2">
+    <div class="balao balao-direita2" id="falaDireita2"></div>
+
+    <div class="container">
+        <div id="texto-container" class="texto">
+            <!-- Texto dinâmico será carregado via JS -->
+        </div>
+        <img id="imagem" src="" alt="Imagem da Ilha de Bahava">
+        <div class="botoes">
+            <button class="voltar" onclick="goTo('mapa')">Voltar ao Mapa</button>
+            <button class="voltar" onclick="mostrarAnterior()">◀ Anterior</button>
+            <button class="voltar" onclick="mostrarProxima()">Avançar ▶</button>
+        </div>
+    </div>
+</body>
+<script src="../scripts/index.js"></script>
+<script src="../scripts/ilha_bahava.js"></script>
+</html>
