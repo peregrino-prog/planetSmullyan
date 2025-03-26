@@ -31,8 +31,8 @@ mapContainer.addEventListener("mousemove", function(event) {
 
 const mapRedirectsDict = {
     '': '',
-    'ilha-do-bahava': 'ilha_cavaleiros.html',
-    'transilvania': 'ilha_cavaleiros.html',
+    'ilha-do-bahava': 'ilha_bahava.html',
+    'transilvania': 'ilha_transilvania.html',
     'ilha-dos-cavaleiros': 'ilha_cavaleiros.html',
     'subterranea': 'ilha_cavaleiros.html',
     'cidade-smullyan': 'ilha_cavaleiros.html',
@@ -42,7 +42,7 @@ const mapRedirectsDict = {
     'arabian-knights': 'ilha_cavaleiros.html',
     'ilha-dos-questionadores': 'ilha_cavaleiros.html',
     'ilha-dos-mortos-vivos': 'ilha_cavaleiros.html',
-    'ilha-dos-robots': 'ilha_cavaleiros.html',
+    'ilha-dos-robots': 'ilha_robots.html',
     'floresta-do-esquecimento':'ilha_cavaleiros.html'
 };
 
