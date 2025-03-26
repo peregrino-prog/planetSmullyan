@@ -2,15 +2,15 @@ body {
     /*text-align: left;*/
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
-    background-image: url('../assets/images/ilhaCavaleiros2.png'); 
+    background-image: url('../assets/images/ilhaDosRobots.png'); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 .container {
     margin-top: 20px;
-    background: rgba(255, 255, 255, 0.39); 
+    background: rgba(255, 255, 255, 0.815); 
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -32,16 +32,13 @@ body {
     color: blue;
     font-weight: bold;
 }
-.normais {
-    color: green;
-    font-weight: bold;
-}
+
 img {
-    width: 600px !important; 
+    width: 450px !important; 
     max-width: 200% !important; 
     height: auto;
     margin-top: 20px;
-}
+} 
 /*img {
     width: 300px;
     margin-top: 20px;
