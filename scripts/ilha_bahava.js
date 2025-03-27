@@ -11,6 +11,22 @@ const textos = [
     ` Uma vez, uma antiga imperatriz de Bahava, num bizarro momento, 
     <br>assinou um decreto estipulando que :<br>
     <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
+    <span class="lei">Normais só podem casar com normais.</span>`,
+
+    ` <strong>A BASE DE CONHECIMENTO É:</strong><br>
+    A ilha de Bahava é <span class="civilizada">civilizada</span>: tanto os <span class="tipo homem">homens</span> como as <span class="tipo mulher">mulheres</span> podem ser cavaleiros, escudeiros ou normais.
+    <span class="cavaleiros">Cavaleiros</span> dizem sempre a verdade.<br>
+    <span class="escudeiros">Escudeiros</span> mentem sempre.<br>
+    <span class="normais">Normais</span> dizem a verdade às vezes e mentem outras vezes.
+    <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
+    <span class="lei">Normais só podem casar com normais.</span>`,
+
+    ` <strong>A BASE DE CONHECIMENTO É:</strong><br>
+    A ilha de Bahava é <span class="civilizada">civilizada</span>: tanto os <span class="tipo homem">homens</span> como as <span class="tipo mulher">mulheres</span> podem ser cavaleiros, escudeiros ou normais.
+    <span class="cavaleiros">Cavaleiros</span> dizem sempre a verdade.<br>
+    <span class="escudeiros">Escudeiros</span> mentem sempre.<br>
+    <span class="normais">Normais</span> dizem a verdade às vezes e mentem outras vezes.
+    <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
     <span class="lei">Normais só podem casar com normais.</span>`
 ];
 
