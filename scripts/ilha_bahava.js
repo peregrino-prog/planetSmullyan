@@ -72,7 +72,7 @@ const falasEsquerda1 = [
     "Bem-vindo à Ilha de Bahava!",
     "Somos civilizados, claro!",
     "A lei matrimonial é sagrada!",
-    ".... ",
+    "   ....   ",
     "Tu é que não és normal !"
 ];
 
@@ -81,7 +81,7 @@ const falasEsquerda2 = [
     "Nem sempre dizemos a verdade...",
     "Escudeiros só casam com cavaleiros!",
     "Tu não és uma Normal !",
-    "..."
+    "  ...  "
 ];
 
 
