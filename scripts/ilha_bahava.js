@@ -20,14 +20,18 @@ const imagens = [
     "../assets/images/ilhaBahava3.png"
 ];
 const personagensEsquerda1 = [
-    "../assets/images/personagem00.png",
-    "../assets/images/personagem1.png",
-    "../assets/images/personagem0.png"
+    "../assets/images/personagem10.png",
+    "../assets/images/personagem11.png",
+    "../assets/images/personagem12.png",
+    "../assets/images/personagem13.png",
+    "../assets/images/personagem14.png"
 ];
 const personagensEsquerda2 = [
     "../assets/images/personagem20.png",
     "../assets/images/personagem2.png",
-    "../assets/images/personagem2.png"
+    "../assets/images/personagem2.png",
+     "../assets/images/personagem23.png",
+    "../assets/images/personagem23.png"
 ];
 
 const personagensDireita1 = [
