@@ -31,11 +31,10 @@ const textos = [
 ];
 
 const imagens = [
-    "../assets/images/ilhaBahava0.png",
-    "../assets/images/ilhaBahava2.png",
+      , // "../assets/images/ilhaBahava0.png"
+    ,  // "../assets/images/ilhaBahava2.png"
     "../assets/images/ilhaBahava3.png",
-    "",
-    ""
+   
 ];
 const personagensEsquerda1 = [
     "../assets/images/personagem10.png",
@@ -89,7 +88,16 @@ let indiceAtual = 0;
 
 function atualizarConteudo() {
     document.getElementById("texto-container").innerHTML = textos[indiceAtual];
+    
     document.getElementById("imagem").src = imagens[indiceAtual];
+    const imagemEl = document.getElementById("imagem");
+    const caminhoImagem = imagens[indiceAtual];
+    if (caminhoImagem && caminhoImagem.trim() !== "") {
+        imagemEl.style.display = "block";
+        imagemEl.src = caminhoImagem;
+    } else {
+        imagemEl.style.display = "none"; // oculta se estiver vazia ou inválido
+    }
 
     document.getElementById("personagemEsquerda1").src = personagensEsquerda1[indiceAtual];
     document.getElementById("personagemEsquerda2").src = personagensEsquerda2[indiceAtual];
