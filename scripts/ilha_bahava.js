@@ -33,7 +33,9 @@ const textos = [
 const imagens = [
     "../assets/images/ilhaBahava0.png",
     "../assets/images/ilhaBahava2.png",
-    "../assets/images/ilhaBahava3.png"
+    "../assets/images/ilhaBahava3.png",
+    "",
+    ""
 ];
 const personagensEsquerda1 = [
     "../assets/images/personagem10.png",
@@ -53,13 +55,17 @@ const personagensEsquerda2 = [
 const personagensDireita1 = [
     "../assets/images/escudeiro.png",
     "../assets/images/escudeiro_suspeito.png",
-    "../assets/images/escudeiro_a_zangar.png"
+    "../assets/images/escudeiro_a_zangar.png",
+    "",
+    ""
 ];
 
 const personagensDireita2 = [
     "../assets/images/escudeiro.png",
     "../assets/images/escudeiro_suspeito.png",
-    "../assets/images/escudeiro_a_zangar.png"
+    "../assets/images/escudeiro_a_zangar.png",
+    "",
+    ""
 ];
 
 const falasEsquerda1 = [
