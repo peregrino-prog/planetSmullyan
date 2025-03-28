@@ -52,19 +52,19 @@ const personagensEsquerda2 = [
 ];
 
 const personagensDireita1 = [
-    "../assets/images/escudeiro.png",
-    "../assets/images/escudeiro_suspeito.png",
-    "../assets/images/escudeiro_a_zangar.png",
-    "",
-    ""
+    "../assets/images/personagem30.png",
+    "../assets/images/personagem30.png",
+    "../assets/images/personagem30.png",
+    "../assets/images/personagem30.png",
+    "../assets/images/personagem30.png"
 ];
 
 const personagensDireita2 = [
-    "../assets/images/escudeiro.png",
-    "../assets/images/escudeiro_suspeito.png",
-    "../assets/images/escudeiro_a_zangar.png",
-    "",
-    ""
+    "../assets/images/personagem40.png",
+    "../assets/images/personagem40.png",
+    "../assets/images/personagem40.png",
+    "../assets/images/personagem40.png",
+    "../assets/images/personagem40.png"
 ];
 
 const falasEsquerda1 = [
