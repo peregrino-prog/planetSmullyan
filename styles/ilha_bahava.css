@@ -98,12 +98,14 @@ img {
 }
 
 .personagem-direita1 {
-    right: 30px;
+    width: 240px !important;
+    right: 400px;
 }
 
 
 .personagem-direita2 {
-    right: 30px;
+    width: 240px !important;
+    right: 130px;
 }
 .balao {
     position: fixed;
