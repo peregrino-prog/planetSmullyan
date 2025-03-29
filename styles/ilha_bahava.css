@@ -100,7 +100,7 @@ img {
 
 .personagem-direita1 {
     width: 240px !important;
-    right: 400px;
+    right: 400px !important;
 }
 
 
