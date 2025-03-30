@@ -97,7 +97,7 @@ const questionarios = {
         slots: [
             {
                 id: "slot1",
-                resposta: "cnormal",
+                resposta: "normal",
                 left: centroDoSlot("370px"),  // alinhado com personagem à esquerda
                 bottom: "590px"
               },
@@ -110,7 +110,7 @@ const questionarios = {
               {
                   id: "slot1",
                   resposta: "cavaleiro",
-                  left: centroDoSlot("1150px"),  // alinhado com personagem à esquerda
+                  left: centroDoSlot("1150px"),  // alinhado com personagem à direita
                   bottom: "630px"
                 }
         ]
