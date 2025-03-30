@@ -18,13 +18,13 @@ const questionarios = {
       slots: [
         {
             id: "slot1",
-            resposta: "escudeiro",
+            resposta: "normal",
             left: centroDoSlot("370px"),  // alinhado com personagem à esquerda
             bottom: "620px"
           },
           {
             id: "slot2",
-            resposta: "cavaleiro",
+            resposta: "normal",
             left: centroDoSlot("580px"),  // outro personagem
             bottom: "620px"
           }
