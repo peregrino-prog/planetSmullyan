@@ -280,7 +280,8 @@ const falasSmullyan = [
  o terceiro é normal`, //18
     "", //19
     "Duas destas pessoas casaram. quem? ", //20
-    `Recordem-se da Lei da Imperatriz, para poderem responder acerce de quem é o quê`, //21
+    `Recordem-se da Lei da Imperatriz, para poderem responder quem é o escudeiro, o cavaleiro e o normal
+    arrasta os blocos e descobre a verdade`, //21
     ``, //22
     `` //23
     
