@@ -29,22 +29,29 @@ const textos = [
     <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
     <span class="lei">Normais só podem casar com normais.</span>`,
     
+    ` `, //5
     ` `, //6
-    ` `, //7
-    ``, //8
+    ``, //7
+    ``,  //8
     ``,  //9
-    ``,  //10
+    ``, //10
     ``, //11
     ``, //12
     ``, //13
     ``, //14
-    "", //15
-    "", //16
-    "", //17
-    "", //18
-    "", //19
-    "", //20
-    ""
+    ``, //15
+    ``, //16
+    ``, //17
+    ``, //18
+    ``, //19
+    ``,  //20
+    `Uma vez, uma antiga imperatriz de Bahava, num bizarro momento, 
+    <br>assinou um decreto estipulando que :<br>
+    <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
+    <span class="lei">Normais só podem casar com normais.</span>`, //21
+    ``, //22
+    `` //23
+    //``  //24
 
     
 
@@ -72,7 +79,11 @@ const fundos = [
     "../assets/images/ilhaBahava/ilhaDeBahava0.png", //18
     "../assets/images/ilhaBahava/ilhaDeBahava0.png", //19
     "../assets/images/ilhaBahava/ilhaDeBahava0.png", //20
-    "../assets/images/ilhaBahava/ilhaDeBahava0.png" //21
+    "../assets/images/ilhaBahava/ilhaDeBahava0.png", //21
+    "../assets/images/ilhaBahava/ilhaDeBahava0.png", //22
+    "../assets/images/ilhaBahava/ilhaDeBahava0.png", //23
+    "../assets/images/ilhaBahava/ilhaDeBahava0.png", //24
+    "../assets/images/ilhaBahava/ilhaDeBahava0.png" //24
 ];
 
 //imagens do container
@@ -97,7 +108,10 @@ const imagens = [
     "", //17
     "", //18
     "", //19
-    "" //20
+    "", //20
+    "", //21
+    "", //22
+    "" //23
 ];
 const personagensEsquerda1 = [
     "", //0
@@ -120,7 +134,10 @@ const personagensEsquerda1 = [
     "../assets/images/ilhaBahava/personagem90.png", //17
     "../assets/images/ilhaBahava/personagem90.png", //18
     "../assets/images/ilhaBahava/personagem90.png", //19
-    "../assets/images/ilhaBahava/personagem90.png" //20
+    "../assets/images/ilhaBahava/personagem90.png", //20
+    "../assets/images/ilhaBahava/personagem90.png", //21
+    "../assets/images/ilhaBahava/personagem90.png", //22
+    "../assets/images/ilhaBahava/personagem90.png" //23
 
 ];
 const personagensEsquerda2 = [
@@ -144,7 +161,10 @@ const personagensEsquerda2 = [
     "../assets/images/ilhaBahava/personagem100.png", //17
     "../assets/images/ilhaBahava/personagem101.png", //18
     "../assets/images/ilhaBahava/personagem100.png", //19
-    "../assets/images/ilhaBahava/personagem100.png" //20
+    "../assets/images/ilhaBahava/personagem100.png", //20
+    "../assets/images/ilhaBahava/personagem101.png", //21
+    "../assets/images/ilhaBahava/personagem100.png", //22
+    "../assets/images/ilhaBahava/personagem100.png" //23
 
 ];
 
@@ -169,7 +189,10 @@ const personagensDireita1 = [
     "../assets/images/ilhaBahava/personagem110.png", //17
     "../assets/images/ilhaBahava/personagem111.png", //18
     "../assets/images/ilhaBahava/personagem111.png", //19
-    "../assets/images/ilhaBahava/personagem111.png" //20
+    "../assets/images/ilhaBahava/personagem111.png", //20
+    "../assets/images/ilhaBahava/personagem111.png", //21
+    "../assets/images/ilhaBahava/personagem111.png", //22
+    "../assets/images/ilhaBahava/personagem111.png" //23
 ];
 
 const personagensDireita2 = [
@@ -193,7 +216,10 @@ const personagensDireita2 = [
     "", //17
     "", //18
     "", //19
-    "" //20
+    "", //20
+    "", //21
+    "", //22
+    "" //23
 ]; 
 
 const personagensSmullyan = [
@@ -217,14 +243,17 @@ const personagensSmullyan = [
     "../assets/images/ilhaBahava/smullyan6.png", //17
     "../assets/images/ilhaBahava/smullyan6.png", //18
     "../assets/images/ilhaBahava/smullyan6.png", //19
-    "../assets/images/ilhaBahava/smullyan6.png" //20
+    "../assets/images/ilhaBahava/smullyan6.png", //20
+    "../assets/images/ilhaBahava/smullyan6.png", //21
+    "../assets/images/ilhaBahava/smullyan6.png", //22
+    "../assets/images/ilhaBahava/smullyan6.png" //23
 ];
 
 const falasSmullyan = [
-    "",   //0
-    "",   //1
-    "",//2
-    "Temos o Sr. A e a Sra. A , aqui ao lado",//3
+    `Bem vindo à Ilha de Bahava, nesta Ilha temos Homens e mulheres com uma vida singular`,   //0
+    `Os habitantes organizam-se em três categorias`,   //1
+    `vamos conhecer dois destes habitantes`,//2
+    ` Situação 20: \n Temos a Sra. A e o Sr. A , aqui ao lado. \b Sabemos que são casados, portanto temos de ter em consideração a Lei da Imperatriz `,//3
     "um deles poderá mentir, ou ambos, ou nenhum", //4
     "", //5
     "",  //6
@@ -242,14 +271,18 @@ const falasSmullyan = [
     "Podemos então prosseguir para a Situação 22",  //13
     "",  //14
     "O que são eles? Escudeiros, Normais, ou Cavaleiros?", //15
-    "", //16
+    `A frase "Se eu sou cavaleira, então tu não me mentes" é o mesmo que afirmar que "não é verdade que eu seja cavaleira e tu mintas" 
+    o que é congruente com a Lei da Imperatriz se ambos forem normais e apenas nesse caso `, //16
     ` Situação 23: Para haver um casamento, tem de haver amor correspondido.Além disso, 
     um habitante não pode amar mais do que uma pessoa ao mesmo tempo`, //17
     ` Eis três habitantes. Um deles é
  cavaleiro, outro é escudeiro, e
  o terceiro é normal`, //18
     "", //19
-    "Duas destas pessoas casaram. quem? " //20
+    "Duas destas pessoas casaram. quem? ", //20
+    `Recordem-se da Lei da Imperatriz, para poderem responder acerce de quem é o quê`, //21
+    ``, //22
+    `` //23
     
 ];
 
@@ -257,13 +290,13 @@ const falasEsquerda1 = [
     "",  //0
     "",  //1
     "Bem-vindo à Ilha de Bahava!",  //2
-    "Somos civilizados, claro!",  //3
+    "Bom dia, Sr. A",  //3
     "A lei matrimonial é sagrada!", //4
     "  ......  ", //5
     "Tu é que não és normal !", //6
     "",  //7
     "Sim, é verdade!",  //8
-    "Sra. A: O Sr. B é um elegante cavaleiro!", //9
+    "Sra. A: \n O Sr. B é um elegante cavaleiro!", //9
     "", //10
     "", //11
     "correcto!", //12
@@ -274,31 +307,37 @@ const falasEsquerda1 = [
     "C, eu amo-te !", //17
     "", //18
     "", //19
-    "C, eu amo-te !" //20
+    "C, eu amo-te !", //20
+    ``, //21
+    ``, //22
+    `` //23
 ];
 
 const falasEsquerda2 = [
     "", //0
     "", //1
     "Bem, vindos!",  //2
-    "Nem sempre dizemos a verdade...", //3
+    "Bom dia Sra. A", //3
     "Escudeiros só casam com cavaleiros!",  //4
     "Tu não és uma Normal !",  //5
     " ......  ",  //6
     "",  //7
     "Somos ambos Normais",  //8
     "",  //9
-    "Sr. A:  Sim, o Sr. B é cavaleiro...", //10
+    "Sr. A: \n Sim, o Sr. B é cavaleiro...", //10
     "",  //11
     "Assim é", //12
     "", //13
     " Se eu sou cavaleira, então tu não me mentes!",  //14
     "", //15
-    "", //16
+    "é verdade", //16
     "", //17
     "A, eu não te amo !", //18
     "", //19
-    "A, eu não te amo !" //20
+    "A, eu não te amo !", //20
+    ``, //21
+    ``, //22
+    `` //23
 ];
 
 const falasDireita1 = [
@@ -312,17 +351,20 @@ const falasDireita1 = [
     "", //7
     "", //8
     "",  //9
-    ` Sra. B: É verdade, ele é o meu cavaleiro!`, //10
+    ` Sra. B: \n É verdade, ele é o meu cavaleiro!`, //10
     "", //11
     "Sou Normal", //12
     "", //13
     "", //14
     "", //15
-    "", //16
+    "correcto", //16
     "", //17
     "", //18
     "B, eu amo-te !", //19
-    "B, eu amo-te !" //20
+    "B, eu amo-te !", //20
+    ``, //21
+    ``, //22
+    `` //23
     
 ];
 
@@ -346,7 +388,11 @@ const falasDireita2 = [
     "", //16
     "", //17
     "", //18
-    "" //19
+    "", //19
+    "", //20
+    "", //21
+    "", //22
+    "" //23
 
 ];
 
@@ -444,9 +490,11 @@ function atualizarConteudo() {
         iniciarQuestionario("situacao21");
       } else if (indiceAtual === 15) {
         iniciarQuestionario("situacao22");
+      } else if (indiceAtual === 21) {
+        iniciarQuestionario("situacao23");
       } 
 
-      const indicesComSlots = [7, 11, 15]; // actualizar onde aparecem os slots na linha de história 2/3
+      const indicesComSlots = [7, 11, 15, 21]; // actualizar onde aparecem os slots na linha de história 2/3
 
       if (!indicesComSlots.includes(indiceAtual)) {
         document.querySelectorAll(".slot").forEach(el => el.remove());
@@ -456,7 +504,7 @@ function atualizarConteudo() {
       
      
     // O valor de indiceAtual é o dos questionários ?, actualizar em conformidade com o 2/3 , 3/3
-    document.getElementById("verificar").style.display = [7, 11, 15].includes(indiceAtual)
+    document.getElementById("verificar").style.display = [7, 11, 15, 21].includes(indiceAtual)
       ? "block"
       : "none";
 

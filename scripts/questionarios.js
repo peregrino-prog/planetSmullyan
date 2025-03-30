@@ -81,10 +81,38 @@ const questionarios = {
             },
             {
               id: "slot2",
-              resposta: "cavaleiro",
+              resposta: "normal",
               left: centroDoSlot("1150px"),  // outro personagem
               bottom: "650px"
             }
+        ]
+      },
+      situacao23: {
+        blocos: [
+          { texto: "Cavaleiro", tipo: "cavaleiro" },
+          { texto: "Escudeiro", tipo: "escudeiro" },
+          { texto: "Normal", tipo: "normal" }
+        ],
+        // mapa das respostas correctas e posições dos slots
+        slots: [
+            {
+                id: "slot1",
+                resposta: "cnormal",
+                left: centroDoSlot("370px"),  // alinhado com personagem à esquerda
+                bottom: "590px"
+              },
+              {
+                id: "slot2",
+                resposta: "escudeiro",
+                left: centroDoSlot("600px"),  // outro personagem
+                bottom: "600px"
+              },
+              {
+                  id: "slot1",
+                  resposta: "cavaleiro",
+                  left: centroDoSlot("1150px"),  // alinhado com personagem à esquerda
+                  bottom: "630px"
+                }
         ]
       },
 };
