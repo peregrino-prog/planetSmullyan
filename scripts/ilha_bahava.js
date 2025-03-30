@@ -265,7 +265,9 @@ const falasSmullyan = [
            cavaleiro (ou o companheiro seria escudeiro), logo são ambos normais (e estão a mentir)`, //8
     `agora temos a situação 21, temos \n  a Sra. A, o Sr. A, a Sra. B e o Sr. B` ,//9
     "", //10
-    "O que são, cada um destes habitantes? ",  //11
+    `O que são, cada um destes habitantes? 
+    arrasta os blocos para os devidos lugares e clica em responder. Podes repetir o questionário quantas vezes quiseres ou clicar 
+    em 'avançar' para saber a resposta`,  //11
     `A Sra. B tem de ser normal, uma vez que, se fosse cavaleira, o seu marido seria escudeiro e ela teria mentido. Se ela fosse escudeira,  
     o seu marido seria cavaleiro e ela teria dito a verdade. A Sra. B é normal e, portanto, o Sr. B também é normal.`, //12
     "Podemos então prosseguir para a Situação 22",  //13
