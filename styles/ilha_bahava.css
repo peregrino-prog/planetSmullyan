@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     color: #333;
 }
-/*  */
+/*
 .container-personagens {
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body {
     gap: 20px; /* Espaço entre cada personagem */
     margin-top: 20px; /* Espaço entre o container dos botões e o primeiro personagem */
 }
-
+/*
 .personagem {
     width: 100px; /* Ajuste a largura conforme necessário */
     height: 100px; /* Ajuste a altura conforme necessário */
@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-/*  */
+  */
 
 .container {
     display: flex;
