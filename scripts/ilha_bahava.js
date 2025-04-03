@@ -61,7 +61,7 @@ const textos = [
 const fundos = [
     "../assets/images/ilhaBahava/ilhaDeBahava0.png",  // 0 primeiro fundo sem personagens
     "../assets/images/ilhaBahava/ilhaDeBahava0.png",  //1
-    "../assets/images/ilhaBahava/ilhaDeBahava0.png",  //2
+    "../assets/images/ilhaBahava/ilhaDeBahava0i.png",  //2
     "../assets/images/ilhaBahava/ilhaDeBahava0.png",  //3
     "../assets/images/ilhaBahava/ilhaDeBahava0.png",  //4
     "../assets/images/ilhaBahava/ilhaDeBahava0.png",  //5
@@ -90,7 +90,7 @@ const fundos = [
 const imagens = [
     "", //0
     "", //1
-    "../assets/images/ilhaBahava3.png",//2
+    "",//2
     "", //3
     "",  //4
     "", //5
