@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilha de Bahava</title>
+    <link rel="stylesheet" href="../styles/ilha_bahava.css">
+    <!--<link rel="stylesheet" href="../styles/jogo_blocos.css">-->
+    <link rel="stylesheet" href="../styles/questionarios.css">
+
+</head>
+<body>
+    <div id="indice-visor" class="visor-indice">Etapa: 0</div>
+    <!-- Personagens fora da container 
+    <img class="personagem personagem-esquerda1" id="personagemEsquerda1" src="../assets/images/personagem10.png" alt="Personagem1">
+    <div class="balao balao-esquerda1" id="falaEsquerda1"></div>
+
+    <img class="personagem personagem-esquerda2" id="personagemEsquerda2"src="../assets/images/personagem20.png" alt="Personagem2">
+    <div class="balao balao-esquerda2" id="falaEsquerda2"></div>
+    
+    <img class="personagem personagem-direita1" id="personagemDireita1" src="../assets/images/personagem30.png" alt="Personagem1">
+    <div class="balao balao-direita1" id="falaDireita1"></div>
+
+    <img class="personagem personagem-direita2" id="personagemDireita2" src="../assets/images/personagem40.png" alt="Personagem2">
+    <div class="balao balao-direita2" id="falaDireita2"></div>
+
+    <img class="personagem personagem-smullyan" id="personagemSmullyan" src="" alt="PersonagemSmullyan">
+    <div class="balao balao-smullyan" id="falaSmullyan"></div>
+-->
+    <div class="container">
+        <div id="texto-container" class="texto">
+            <!-- Texto dinâmico será carregado via JS -->
+        </div>
+        <img id="imagem" src="" alt="Imagem da Ilha de Bahava">
+        <div class="botoes">
+            <button class="voltar" onclick="goTo('mapa')">Voltar ao Mapa</button>
+            <button class="voltar" onclick="mostrarAnterior()">◀ Anterior</button>
+            <button class="voltar" onclick="mostrarProxima()">Avançar ▶</button>
+        </div>
+      
+    </div>
+
+
+
+    <!--     conainers das personagens  -->
+    <div class="linha-inferior" id="linhaInferior">
+      <div class="containerInferior" id="slotSmullyan"></div>
+      <div class="containerInferior" id="slotEsq1"></div>
+      <div class="containerInferior" id="slotEsq2"></div>
+      <div class="containerInferior" id="slotVazio"></div><!-- Fica sempre vazio -->
+      <div class="containerInferior" id="slotDir1"></div> 
+      <div class="containerInferior" id="slotDir2"></div>
+      
+    </div>
+    
+
+    <!--   containers das falas  -->
+    <div class="linha-baloes" id="linhaBaloes">
+      <div class="container-balao" id="balaoSlot1"><div class="balao" id="falaSmullyan"></div></div>
+      <div class="container-balao" id="balaoSlot2"><div class="balao" id="falaEsquerda1"></div></div>
+      <div class="container-balao" id="balaoSlot3"><div class="balao" id="falaEsquerda2"></div></div>
+      <div class="container-balao" id="balaoSlot4"><div class="balao" id="falaDireita1"></div></div>
+      <div class="container-balao" id="balaoSlot5"><div class="balao" id="falaDireita2"></div></div>
+      
+    </div>
+    
+
+
+    <!-- -->
+    
+
+    <!-- BLOCO DE DECISÃO (escondido inicialmente, via JS) -->
+    <div id="blocos-container" style="display: none;"></div>
+
+    <!-- CENÁRIO COM PERSONAGENS DO JOGO DE BLOCOS -->
+    
+    <!--<div class="cenario" id="cenario" style="display: none;">
+        <div id="slots-area">
+            <div class="slot" data-resposta="normal" id="slot1">Arrasta aqui</div>
+            <div class="slot" data-resposta="normal" id="slot2">Arrasta aqui</div>
+          </div>-->
+          <button id="verificar" style="display: none;">Responder</button>
+        
+    </div>
+      
+
+    <!--ADICIONA UM POP-UP PERSONALIZADO -->
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup-conteudo">
+          <img src="" alt="Resultado" />
+          <p id="popup-mensagem"></p>
+          <button onclick="fecharPopup()">Fechar</button>
+        </div>
+      </div>
+      
+
+    <button id="verificar" style="display: none;">Responder</button>
+
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/ilha_bahava.js"></script>
+    <!--<script src="../scripts/jogo_blocos.js"></script>-->
+    <script src="../scripts/questionarios.js"></script>
+
+    <!-- O POP UP com o resultado-->
+    <!--<div id="popup" style="display: none;">
+        <div id="popup-conteudo">
+          <img src="" id="popup-imagem" alt="Resultado">
+          <p id="popup-mensagem"></p>
+          <button onclick="fecharPopup()">Fechar</button>
+        </div>
+      </div>-->
+      
+
+</body>
+</html>
