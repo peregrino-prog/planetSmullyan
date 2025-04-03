@@ -254,7 +254,7 @@ const falasSmullyan = [
     `Bem vindo à Ilha de Bahava, nesta Ilha temos Homens e mulheres com uma vida singular`,   //0
     `Os habitantes organizam-se em três categorias`,   //1
     `vamos conhecer dois destes habitantes`,//2
-    ` Situação 20: \n Temos a Sra. A e o Sr. A , aqui ao lado. \b Sabemos que são casados, portanto temos de ter em consideração a Lei da Imperatriz `,//3
+    ` Temos a Sra. A e o Sr. A , aqui ao lado. \b Sabemos que são casados, portanto temos de ter em consideração a Lei da Imperatriz `,//3
     "um deles poderá mentir, ou ambos, ou nenhum", //4
     "", //5
     "",  //6
@@ -264,7 +264,7 @@ const falasSmullyan = [
          normal, e a frase dita por ele seria verdadeira.
            Da mesma forma, a Sra. A não pode ser escudeira. Igualmente, nenhum dos dois pode ser
            cavaleiro (ou o companheiro seria escudeiro), logo são ambos normais (e estão a mentir)`, //8
-    `agora temos a situação 21, temos \n  a Sra. A, o Sr. A, a Sra. B e o Sr. B` ,//9
+    `Temos \n  a Sra. A, o Sr. A, a Sra. B e o Sr. B` ,//9
     "", //10
     `O que são, cada um destes habitantes? 
     arrasta os blocos para os devidos lugares e clica em responder. Podes repetir o questionário quantas vezes quiseres ou clicar 
@@ -276,7 +276,7 @@ const falasSmullyan = [
     "O que são eles? Escudeiros, Normais, ou Cavaleiros?", //15
     `A frase "Se eu sou cavaleira, então tu não me mentes" é o mesmo que afirmar que "não é verdade que eu seja cavaleira e tu mintas" 
     o que é congruente com a Lei da Imperatriz se ambos forem normais e apenas nesse caso `, //16
-    ` Situação 23: Para haver um casamento, tem de haver amor correspondido.Além disso, 
+    ` Para haver um casamento, tem de haver amor correspondido.Além disso, 
     um habitante não pode amar mais do que uma pessoa ao mesmo tempo`, //17
     ` Eis três habitantes. Um deles é
  cavaleiro, outro é escudeiro, e
@@ -297,7 +297,7 @@ const falasEsquerda1 = [
     "Bom dia, Sr. A",  //3
     "A lei matrimonial é sagrada!", //4
     "  ......  ", //5
-    "Tu é que não és normal !", //6
+    "Tu não és normal !", //6
     "",  //7
     "Sim, é verdade!",  //8
     "Sra. A: \n O Sr. B é um elegante cavaleiro!", //9
@@ -323,7 +323,7 @@ const falasEsquerda2 = [
     "Bem, vindos!",  //2
     "Bom dia Sra. A", //3
     "Escudeiros só casam com cavaleiros!",  //4
-    "Tu não és uma Normal !",  //5
+    " Não és normal !",  //5
     " ......  ",  //6
     "",  //7
     "Somos ambos Normais",  //8
@@ -357,7 +357,7 @@ const falasDireita1 = [
     "",  //9
     ` Sra. B: \n É verdade, ele é o meu cavaleiro!`, //10
     "", //11
-    "Sou Normal", //12
+    "Sou normal", //12
     "", //13
     "", //14
     "", //15
