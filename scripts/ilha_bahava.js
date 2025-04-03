@@ -296,7 +296,7 @@ const falasEsquerda1 = [
     "Bem-vindo à Ilha de Bahava!",  //2
     "Bom dia, Sr. A",  //3
     "A lei matrimonial é sagrada!", //4
-    "  ......  ", //5
+    "   ", //5
     "Tu não és normal !", //6
     "",  //7
     "Sim, é verdade!",  //8
