@@ -258,17 +258,15 @@ const falasSmullyan = [
     "um deles poderá mentir, ou ambos, ou nenhum", //4
     "", //5
     "",  //6
-    `serão eles escudeiros, cavaleiros ou normais? \n arrasta os blocos
+    `serão eles escudeiros, cavaleiros ou normais? \n Arrasta os blocos
     com o rato e descobre a verdade`,  //7
     `O Sr. A não pode ser escudeiro porque a sua mulher teria de ser cavaleira e, portanto, não 
          normal, e a frase dita por ele seria verdadeira.
            Da mesma forma, a Sra. A não pode ser escudeira. Igualmente, nenhum dos dois pode ser
-           cavaleiro (ou o companheiro seria escudeiro), logo são ambos normais (e estão a mentir)`, //8
+           cavaleiro (ou o companheiro seria escudeiro), logo são ambos normais (e estão a mentir).`, //8
     `Temos \n  a Sra. A, o Sr. A, a Sra. B e o Sr. B` ,//9
     "", //10
-    `O que são, cada um destes habitantes? 
-    arrasta os blocos para os devidos lugares e clica em responder. Podes repetir o questionário quantas vezes quiseres ou clicar 
-    em 'avançar' para saber a resposta`,  //11
+    `O que são, cada um destes habitantes? `,  //11
     `A Sra. B tem de ser normal, uma vez que, se fosse cavaleira, o seu marido seria escudeiro e ela teria mentido. Se ela fosse escudeira,  
     o seu marido seria cavaleiro e ela teria dito a verdade. A Sra. B é normal e, portanto, o Sr. B também é normal.`, //12
     "Podemos então prosseguir para a Situação 22",  //13
@@ -283,8 +281,7 @@ const falasSmullyan = [
  o terceiro é normal`, //18
     "", //19
     "Duas destas pessoas casaram. quem? ", //20
-    `Recordem-se da Lei da Imperatriz, para poderem responder quem é o escudeiro, o cavaleiro e o normal
-    arrasta os blocos e descobre a verdade`, //21
+    `Recordem-se da Lei da Imperatriz, para poderem responder quem é o escudeiro, o cavaleiro e o normal`, //21
     ``, //22
     `` //23
     
@@ -326,7 +323,7 @@ const falasEsquerda2 = [
     " Não és normal !",  //5
     " ......  ",  //6
     "",  //7
-    "Somos ambos Normais",  //8
+    "Somos ambos normais.",  //8
     "",  //9
     "Sr. A: \n Sim, o Sr. B é cavaleiro...", //10
     "",  //11
