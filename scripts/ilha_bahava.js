@@ -266,7 +266,7 @@ const falasSmullyan = [
     `O que são, cada um destes habitantes? `,  //11
     `A Sra. B tem de ser normal, uma vez que, se fosse cavaleira, o seu marido seria escudeiro e ela teria mentido. Se ela fosse escudeira,  
     o seu marido seria cavaleiro e ela teria dito a verdade. A Sra. B é normal e, portanto, o Sr. B também é normal.`, //12
-    "Podemos então prosseguir para a Situação 22",  //13
+    "Podemos então prosseguir para o seguinte puzzle",  //13
     "",  //14
     "O que são eles? Escudeiros, Normais, ou Cavaleiros?", //15
     `A frase "Se eu sou cavaleira, então tu não me mentes" é o mesmo que afirmar que "não é verdade que eu seja cavaleira e tu mintas" 
