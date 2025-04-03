@@ -46,10 +46,7 @@ const textos = [
     ``, //18
     ``, //19
     ``,  //20
-    `Uma vez, uma antiga imperatriz de Bahava, num bizarro momento, 
-    <br>assinou um decreto estipulando que :<br>
-    <span class="lei">Cavaleiros só podem casar com escudeiros, e escudeiros com cavaleiros.</span><br>
-    <span class="lei">Normais só podem casar com normais.</span>`, //21
+    ``, //21
     ``, //22
     `` //23
     //``  //24
