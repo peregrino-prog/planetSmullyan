@@ -259,8 +259,7 @@ const falasSmullyan = [
     "um deles poderá mentir, ou ambos, ou nenhum", //4
     "", //5
     "",  //6
-    `serão eles escudeiros, cavaleiros ou normais? \n Arrasta os blocos
-    com o rato e descobre a verdade`,  //7
+    `serão eles escudeiros, cavaleiros ou normais? `,  //7
     `O Sr. A não pode ser escudeiro porque a sua mulher teria de ser cavaleira e, portanto, não 
          normal, e a frase dita por ele seria verdadeira.
            Da mesma forma, a Sra. A não pode ser escudeira. Igualmente, nenhum dos dois pode ser
