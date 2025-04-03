@@ -1,0 +1,341 @@
+body {
+    background-color: #e3f0e850;
+    font-family: 'Segoe UI', sans-serif;
+    /*background-image: url('../assets/images/ilhaBahava.png');*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    /*z-index:300;*/
+}
+
+
+/*  containers das personagens */
+.linha-inferior {
+   position: fixed;         /* fixa na janela */
+    bottom: 30px;            /* distância ao fundo */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    pointer-events: none;    /* evita que interfira com cliques, opcional */
+    
+  }
+  
+  .containerInferior {
+    width: 130px;
+    height: 400px; /*  altura aumentada */
+    background-color: transparent;
+    border: dotted; /* ou mantém se quiser contorno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 101;
+    pointer-events: auto;
+    
+  }
+  
+  .containerInferior img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border: double; /* ou mantém se quiser contorno */
+  }
+  
+  
+  
+
+
+/*       end            */
+
+.container {  /*contentor do menu botões*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* ou flex-start/center */
+    align-items: flex-start ;       /* alinhar ao topo */
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.685);
+    z-index:10;
+
+    position:absolute;
+}
+/*  texto dentro do contentor do menu botões  */
+.texto { /* const textos=[] */
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #181717;
+}
+
+.texto strong {
+    color: #006400;
+}
+
+.cavaleiros {
+    color: red;
+    font-weight: bold;
+}
+
+.escudeiros {
+    color: blue;
+    font-weight: bold;
+}
+
+.normais {
+    color: green;
+    font-weight: bold;
+}
+
+.tipo.homem {
+    color: #2a2aff;
+    font-weight: bold;
+}
+
+.tipo.mulher {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.civilizada {
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.lei {
+    font-style: italic;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+img {
+    width: 500px !important;
+    max-width: 200% !important;
+    height: auto;
+    margin-top: 20px;
+}
+
+.personagem {
+    position: fixed;
+    bottom: 0;
+          
+    max-width: 300px !important;
+    height:640px !important;         
+    
+    z-index: 0;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.personagem-esquerda1 {
+    width: 300px !important;
+    left: 360px;
+    bottom: 20px;
+    z-index: 1;
+    
+}
+
+
+.personagem-esquerda2 {
+    width: 300px !important;
+    left: 600px;
+    bottom: 20px;
+}
+
+.personagem-direita1 {
+    width: 300px !important;
+    right: 400px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+
+.personagem-direita2 {
+    width: 300px !important;
+    right: 130px;
+    bottom: 30px;
+}
+.balao {
+    position: fixed;
+    max-width: 200px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    color: black;
+    white-space: pre-line; /*  permite quebras de linha por \n */
+    word-wrap: break-word;
+}
+
+.balao-esquerda1 {
+    left: 450px;
+    bottom: 630px;
+}
+
+.balao-esquerda2 {
+    left: 720px;
+    bottom: 650px;
+}
+
+.balao-direita1 {
+    right: 500px;
+    bottom: 650px;
+}
+
+.balao-direita2 {
+    right: 210px;
+    bottom: 650px;
+}
+
+.balao::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+}
+
+.balao-esquerda1::after {
+    top: 100%;
+    left: 50px;
+    border-top-color: white;
+}
+
+
+.balao-esquerda2::after {
+    top: 100%;
+    left: 20px;
+    border-top-color: white;
+}
+
+.balao-direita1::after {
+    top: 100%;
+    right: 20px;
+    border-top-color: white;
+}
+
+
+.balao-direita2::after {
+    top: 100%;
+    right: 20px;
+    border-top-color: white;
+}
+
+.personagem-smullyan {
+    left: 80px; 
+    bottom: 50px;
+    position: fixed;
+    width: 320px !important;
+    height: 640px !important;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.balao-smullyan {
+    position: fixed;
+    left: 10px;
+    bottom: 610px;
+    max-width: 400px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+}
+
+.balao-smullyan::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    top: 100%;
+    left: 200px;
+    border-top-color: white;
+}
+
+
+/*  containers balões de fala  */
+
+.linha-baloes {
+    position: fixed;
+    bottom: 420px; /* 👈 altura desejada */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1500; /* 👈 garantir que ficam à frente */
+    pointer-events: none;
+  }
+  
+  .container-balao {
+    width: 230px; /* igual aos slots/personagens */
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    pointer-events: none;
+  }
+  
+  .balao {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.171);
+    color: black;
+    z-index: 1501;
+    max-width:220px;
+    position: relative;
+    text-align: center;
+  }
+  
+
+
+
+.botoes {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.voltar {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007B55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    background-color: #005f40;
+}
+
+.visor-indice {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 200;
+    font-family: 'Segoe UI', sans-serif';
+  }
+  
