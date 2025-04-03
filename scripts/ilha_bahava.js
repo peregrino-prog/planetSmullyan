@@ -254,7 +254,8 @@ const falasSmullyan = [
     `Bem vindo à Ilha de Bahava, nesta Ilha temos Homens e mulheres com uma vida singular`,   //0
     `Os habitantes organizam-se em três categorias`,   //1
     `vamos conhecer dois destes habitantes`,//2
-    ` Temos a Sra. A e o Sr. A , aqui ao lado. \b Sabemos que são casados, portanto temos de ter em consideração a Lei da Imperatriz `,//3
+    ` Temos a Sra. A e o Sr. A , aqui ao lado.
+    Sabemos que são casados, portanto temos de ter em consideração a Lei da Imperatriz `,//3
     "um deles poderá mentir, ou ambos, ou nenhum", //4
     "", //5
     "",  //6
@@ -321,7 +322,7 @@ const falasEsquerda2 = [
     "Bom dia Sra. A", //3
     "Escudeiros só casam com cavaleiros!",  //4
     " Não és normal !",  //5
-    " ......  ",  //6
+    " ",  //6
     "",  //7
     "Somos ambos normais.",  //8
     "",  //9
