@@ -29,7 +29,7 @@ body {
 /* container onde está o mapa */
 #svg-container {
   
-  background-image: url("");
+  background-image: url("../assets/images/fundo-img5.png");
   background-size:cover;
   width: 90%;
   height: 90%;
