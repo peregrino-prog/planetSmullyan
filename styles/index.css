@@ -29,7 +29,7 @@ body {
 /* container onde está o mapa */
 #svg-container {
   
-  background-image: url("../assets/images/fundo-img5.png");
+  background-image: url("");
   background-size:cover;
   width: 90%;
   height: 90%;
@@ -133,7 +133,7 @@ path#rios, path[fill='black'] {
     width: 100%;
     height: 100vh;
     object-fit: cover; /* mantém proporção da imagem */
-    z-index: 0;
+    z-index: -1;
   }
   
   /*#map {
