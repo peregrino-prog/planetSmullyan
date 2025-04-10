@@ -1,0 +1,247 @@
+body {
+    background-color: #e3f0e850;
+    font-family: 'Segoe UI', sans-serif;
+    /*background-image: url('../assets/images/ilhaBahava.png');*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    /*z-index:300;*/
+}
+
+/*  botões principais  */
+.botoes {
+    width: 100%; /* igual aos slots/personagens */
+    height: 10vh;
+    text-align: center;
+    margin-top: 2px;
+    justify-content: space-between;  /* Espaça os botões nas extremidades, com o botão central automaticamente centralizado */
+    right:10vh;              
+    padding: 2px 2px;                 /* Espaço dos cantos */
+}
+
+/*  texto dos botões*/
+.voltar {
+    margin: 5px;
+    
+    font-size: 2vh;
+    background-color: #7b0025;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    background-color: #005f40;
+}
+
+/*contador de páginas */
+.visor-indice {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 200;
+    font-family: 'Segoe UI', 'sans-serif';
+  }
+  
+
+
+
+/*  containers das personagens */
+.linha-inferior {
+   position: fixed;         /* fixa na janela */
+    bottom: 30px;            /* distância ao fundo */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    /*border: dashed;*/
+    
+    pointer-events: none;    /* evita que interfira com cliques, opcional */
+    
+  }
+  
+  .containerInferior {
+    width: 13%;
+    height: 65vh; /*  altura aumentada */
+    background-color: transparent;
+    /*border: dotted;  ou mantém se quiser contorno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 101;
+    pointer-events: auto;
+    
+  }
+  
+  .containerInferior img {
+    max-width: 100%;
+    max-height: 65vh;
+    object-fit: contain;
+    /*border: double;  ou mantém se quiser contorno */
+  }
+  
+
+
+
+/*       end            */
+
+.container {  /*contentor do texto principal e imagem puzzle*/
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start; /* ou flex-start/center */
+    align-items: flex-start ;       /* alinhar ao topo */
+    left:25vw;
+    top:10vh;
+    max-width: 60vw;
+    max-height: 20vh;
+    gap: 20px;
+    margin-top: 0px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.041);
+    z-index:10;
+    /*border: dotted;*/
+    position:fixed;
+}
+/*  texto dentro do contentor do menu botões  */
+.texto { /* const textos=[] */
+    text-align: center center;
+    font-size: 2vh;
+    max-width: 50vw;
+    max-height: 20vh;
+    
+    margin-bottom: 5px;
+    color: #181717;
+}
+
+.texto strong {
+    color: #006400;
+}
+
+.cavaleiros {
+    color: red;
+    font-weight: bold;
+}
+
+.escudeiros {
+    color: blue;
+    font-weight: bold;
+}
+
+.normais {
+    color: green;
+    font-weight: bold;
+}
+
+.tipo.homem {
+    color: #2a2aff;
+    font-weight: bold;
+}
+
+.tipo.mulher {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.civilizada {
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.lei {
+    font-style: italic;
+    color: #8b0000;
+    font-weight: bold;
+}
+/* controla as imagens do pop up e do contentor do topo */
+img {
+    width: 50vh !important;
+    max-width: 50vh !important;
+    height: auto;
+    margin-top: 20px;
+}
+/*   controla as imagens do contentor à direita (tabelas verdade)  */
+#div-imagem-destaque {
+    position: fixed;
+    display: flex;
+    align-items: flex-end;     /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente */
+    top: 10%;
+    right: 5%;
+    width: 40vw;         /* aumenta a largura */
+    height: 70vh;        /* ou define uma altura fixa, ex: 50vh */
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0);
+    padding: 1%;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.014);
+    /*overflow: hidden; evita que a imagem ultrapasse*/ 
+    
+}
+
+#img-destaque {
+    position: relative;                 /* necessário para que 'left' funcione */
+    left:50%;    /* move o ponto de origem para o meio */
+    margin-top: 15%;
+    transform: translateX(-50%) scale(1.5); /* centra + escala */
+    max-width: none;                   /* remove limitação se existir */
+    max-height: 50vh;
+    display: block;
+  }
+  
+
+
+
+
+
+/*  containers balões de fala  */
+
+.linha-baloes {
+    position: fixed;
+    bottom: 70vh; /*  altura desejada dos balões de fala */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1500; /* 👈 garantir que ficam à frente */
+    pointer-events: none;
+  }
+  
+  .container-balao {
+    width: 23vw; /* igual aos slots/personagens */
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    pointer-events: none;
+  }
+  
+  .balao {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.171);
+    color: black;
+    z-index: 1501;
+    max-width:30vw;
+    position: relative;
+    text-align: center;
+  }
+  
+
+
