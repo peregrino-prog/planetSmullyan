@@ -34,7 +34,7 @@ body {
   top: 10vh;      /* Ajuste a distância do topo conforme necessário */
   left: 2vw;     /* Ajuste a distância da esquerda conforme necessário */
   z-index: 3;  /* Garante que fiquem acima de outros elementos */
-  padding: 10px 20px;
+  padding: 0;
   background-color: #007bff00; /* Cor de fundo */
   color: white;
   border: none;
