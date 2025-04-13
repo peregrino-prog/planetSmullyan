@@ -37,7 +37,7 @@ body {
   padding: 0;
   background-color: #007bff00; /* Cor de fundo */
   color: white;
-  border: none;
+  border: 2px dotted red;  /* visualiza a área clicável */
   border-radius: 5px;
   cursor: pointer;
 }
