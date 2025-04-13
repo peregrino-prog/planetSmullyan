@@ -30,6 +30,8 @@ body {
 
 /* Botão do canto superior esquerdo */
 #btn-esquerda {
+  display: inline-block;   /* ou block */
+  width: fit-content;      /* ajusta à imagem */
   position: fixed;
   top: 10vh;      /* Ajuste a distância do topo conforme necessário */
   left: 2vw;     /* Ajuste a distância da esquerda conforme necessário */
